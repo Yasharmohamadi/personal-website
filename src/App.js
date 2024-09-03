@@ -1,11 +1,10 @@
 import React from "react";
+import Header from "./Header/Header";
 
 export default function App() {
-  return (
-    <div className="App">
-        <h1>
-          personal website
-        </h1>
-    </div>
-  );
+	return (
+		<div className="app">
+			<Header />
+		</div>
+	);
 }

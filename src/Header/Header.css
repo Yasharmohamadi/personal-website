@@ -1,0 +1,82 @@
+.header {
+	box-shadow: 0 0 50px var(--shadow-color);
+    background: var(--section-bg-color);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2rem 0;
+}
+.header_title {
+	font-family: "Poppins Black";
+	font-size: 4.5rem;
+	color: var(--main-color);
+	cursor: pointer;
+}
+.header_list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.header_list li {
+	padding: 1rem;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+.header_list li:hover {
+	background: #e4e4e441;
+}
+.header_list li a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+.list_item--active {
+	color: var(--main-color) !important;
+	font-weight: 600 !important;
+}
+
+/* hamberger menu */
+.nav-icon-toggle {
+	display: none;
+	cursor: pointer;
+	padding: 2rem;
+}
+.nav-icon-line {
+	position: relative;
+}
+.nav-icon-line,
+.nav-icon-line::before,
+.nav-icon-line::after {
+	width: 3rem;
+	height: 0.5rem;
+	background: var(--main-color);
+	border-radius: 1rem;
+	transition: all 50ms ease-in-out;
+}
+.nav-icon-line::before,
+.nav-icon-line::after {
+	content: "";
+	position: absolute;
+	transition: all 100ms ease-in-out;
+}
+.nav-icon-line::before {
+	top: 1rem;
+}
+.nav-icon-line::after {
+	top: -1rem;
+}
+.nav-icon-toggle--open .nav-icon-line {
+	background: transparent;
+}
+.nav-icon-toggle--open .nav-icon-line::after {
+	transform: translateY(1rem) rotate(45deg);
+}
+.nav-icon-toggle--open .nav-icon-line::before {
+	transform: translateY(-1rem) rotate(-45deg);
+}
