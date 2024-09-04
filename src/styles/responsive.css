@@ -9,6 +9,10 @@
 	.about-btns button {
 		padding: 1rem 2rem;
 	}
+	.service-wrapper {
+	padding: 4rem 6rem;
+
+	}
 }
 @media screen and (max-width: 1200px) {
 	.header_list li {
@@ -37,6 +41,10 @@
 		font-size: 2rem;
 		padding: 1rem 2rem;
 	}
+	.service-wrapper {
+		padding: 4rem;
+	
+		}
 }
 @media screen and (max-width: 992px) {
 	.header_title {
