@@ -1,0 +1,73 @@
+.about {
+	padding-top: 5rem;
+}
+
+.about-main {
+	margin: 6rem 0 10rem 0;
+	box-shadow: 0 0 50px var(--shadow-color);
+	display: flex;
+}
+
+.about-img {
+	background: url("../../public/images/about-us-man.jpg");
+	/* height: 100%; */
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	flex-shrink: 0;
+	flex-basis: 50%;
+}
+
+.about-content {
+	flex-shrink: 0;
+	flex-basis: 50%;
+	padding: 4rem;
+}
+.content-title {
+	font-family: "Poppins SemiBold";
+
+	font-size: 2rem;
+}
+.content-title span {
+	color: var(--main-color);
+}
+.content-caption {
+	margin: 2rem 0 5rem 0;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+.content-list {
+	list-style-type: none;
+	margin-bottom: 4rem;
+}
+
+.content-list-title {
+	font-family: "Poppins SemiBold";
+
+	font-size: 1.8rem;
+	color: var(--main-color);
+	margin-bottom: 2rem;
+}
+.content-list-item {
+	margin-bottom: 1rem;
+}
+
+.content-list-item::before {
+	content: "·";
+	font-size: 10rem;
+	vertical-align: middle;
+	line-height: 20px;
+	color: var(--main-color);
+	margin-right: 0.5rem;
+}
+
+.about-btns {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.about-btns button {
+	padding: 1rem 5rem;
+}

@@ -26,6 +26,10 @@ html {
 	align-items: center;
 }
 
+.justify-content-center {
+	justify-content: center;
+}
+
 body {
 	font-family: "Poppins";
 	font-size: 1.6rem; /* 16px */
@@ -43,7 +47,6 @@ body {
 	font-family: "Poppins SemiBold";
 	box-shadow: 0 0 50px var(--shadow-color);
 
-
 	/* border-radius: 15rem; */
 }
 
@@ -60,4 +63,49 @@ body {
 }
 .btn_white:hover {
 	background: #c5c5c5;
+}
+
+.section-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.section-title {
+	font-size: 4.5rem;
+    font-family: "Poppins Bold";
+	color: var(--main-color);
+
+}
+.section-title_sub {
+	letter-spacing: 0.5rem;
+	margin: 1rem 0 2rem 0;
+	color: var(--text-color);
+}
+.section-line,
+.section-line::before,
+.section-line::after {
+	background: var(--main-color);
+}
+.section-line {
+	height: 1rem;
+	width: 4rem;
+	border-radius: 5rem;
+	position: relative;
+}
+.section-line::before,
+.section-line::after {
+	content: "";
+	height: 0.2rem;
+	width: 8rem;
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+}
+
+.section-line::before {
+	right: 3rem;
+}
+
+.section-line::after {
+	left: 3rem;
 }

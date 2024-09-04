@@ -52,6 +52,10 @@
 		padding-top: 5rem;
 		height: 100rem;
 	}
+	.home-avatar {
+
+		border: 2rem solid var(--section-bg-color);
+	}
 }
 @media screen and (max-width: 768px) {
 	.nav-icon-toggle {
@@ -88,6 +92,10 @@
 		font-size: 2rem !important;
 		padding: 1rem 3.5rem !important;
 	}
+	.home-avatar {
+
+		border: 1.5rem solid var(--section-bg-color);
+	}
 }
 @media screen and (max-width: 460px) {
 	.home-welcome {
@@ -99,4 +107,5 @@
 	.home-skills  {
 		font-size: 1.8rem;
 	}
+
 }
