@@ -5,14 +5,16 @@ export default function About() {
 	return (
 		<div className="about">
 			<div className="container">
-				<div className="row justify-content-center">
-					<div className="section-header about-header">
-						<h3 className="section-title about-title">About Us</h3>
-						<p className="section-title_sub about-title_sub">Why Choose Us?</p>
-						<div className="section-line about-line"></div>
+				<div className="about-wrapper">
+					<div className="section-header">
+						<h3 className="section-title">About Us</h3>
+						<p className="section-title_sub">Why Choose Us?</p>
+						<div className="section-line"></div>
 					</div>
 					<div className="about-main">
-						<div className="about-img"></div>
+						<div className="about-img-box">
+                            <img className="about-img" src="./images/about-us-man.jpg" alt="ronin"/>
+                        </div>
 						<div className="about-content">
 							<h4 className="content-title">
 								Why Choose <span>Ronin Web Developers</span> ?

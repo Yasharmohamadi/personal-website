@@ -46,8 +46,6 @@ body {
 	cursor: pointer;
 	font-family: "Poppins SemiBold";
 	box-shadow: 0 0 50px var(--shadow-color);
-
-	/* border-radius: 15rem; */
 }
 
 .btn_blue {
@@ -72,9 +70,8 @@ body {
 }
 .section-title {
 	font-size: 4.5rem;
-    font-family: "Poppins Bold";
+	font-family: "Poppins Bold";
 	color: var(--main-color);
-
 }
 .section-title_sub {
 	letter-spacing: 0.5rem;
@@ -91,6 +88,7 @@ body {
 	width: 4rem;
 	border-radius: 5rem;
 	position: relative;
+	/* z-index: -1; */
 }
 .section-line::before,
 .section-line::after {
