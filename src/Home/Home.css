@@ -1,0 +1,44 @@
+.home {
+	padding-top: 8rem;
+	background-image: url(../../public/images/shapes/header-shape.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 90rem;
+}
+
+.home-welcome {
+	font-family: "Poppins SemiBold";
+    font-size: 2.5rem;
+}
+.home-welcome span {
+	color: var(--main-color);
+}
+.home-title {
+	font-size: 6rem;
+	margin: 1rem 0;
+	color: var(--main-color);
+	font-family: "Poppins Bold";
+}
+.home-skills {
+    font-size: 2rem;
+	margin-bottom: 2rem;
+	/* color: var(--text-color); */
+	color: #9f9f9f;
+	/* opacity: 0.7; */
+}
+.home-btns {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+.home-avatar {
+	width: 50rem;
+	height: 50rem;
+	box-shadow: 0 0 50px var(--shadow-color);
+	border-radius: 100%;
+	background: url("../../public/images/header-avatar.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 2.5rem solid var(--section-bg-color);
+}

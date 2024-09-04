@@ -21,8 +21,43 @@ html {
 	font-size: 10px; /* 1rem == 10 px*/
 }
 
+/* helper class */
+.align-items-center {
+	align-items: center;
+}
+
 body {
 	font-family: "Poppins";
 	font-size: 1.6rem; /* 16px */
 	line-height: 1.5;
+	color: var(--text-color);
+	background: var(--app-bg-color);
+}
+
+.app-btn {
+	font-size: 2.5rem;
+	padding: 1rem 3.5rem;
+	outline: none;
+	border: 1px solid var(--main-color);
+	cursor: pointer;
+	font-family: "Poppins SemiBold";
+	box-shadow: 0 0 50px var(--shadow-color);
+
+
+	/* border-radius: 15rem; */
+}
+
+.btn_blue {
+	color: #fff;
+	background: var(--main-color);
+}
+.btn_white {
+	color: var(--main-color);
+	background: #f0f0f0;
+}
+.btn_blue:hover {
+	background: #113563;
+}
+.btn_white:hover {
+	background: #c5c5c5;
 }

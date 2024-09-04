@@ -1,13 +1,56 @@
 @media screen and (max-width: 1400px) {
+	.home-avatar {
+		width: 45rem;
+		height: 45rem;
+	}
+	.home {
+		height: 85rem;
+	}
 }
 @media screen and (max-width: 1200px) {
 	.header_list li {
 		padding: 0.5rem;
 	}
+	.home-avatar {
+		width: 35rem;
+		height: 35rem;
+	}
+	.home-title {
+		font-size: 5rem;
+	}
+	.home-welcome {
+		font-family: "Poppins SemiBold";
+		font-size: 2rem;
+	}
+
+	.app-btn {
+		font-size: 2rem !important;
+		padding: 1rem 3rem !important;
+	}
+	.home {
+		height: 75rem;
+	}
 }
 @media screen and (max-width: 992px) {
 	.header_title {
 		font-size: 3rem;
+	}
+	.home-contents {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.home-avatar {
+		margin: 0 auto 5rem auto;
+	}
+
+	.home .row {
+		flex-direction: column-reverse;
+	}
+	.home {
+		padding-top: 5rem;
+		height: 100rem;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -37,4 +80,23 @@
 	}
 }
 @media screen and (max-width: 576px) {
+	.home-btns {
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.app-btn {
+		font-size: 2rem !important;
+		padding: 1rem 3.5rem !important;
+	}
+}
+@media screen and (max-width: 460px) {
+	.home-welcome {
+		font-size: 1.8rem;
+	}
+	.home-title {
+		font-size: 4rem;
+	}
+	.home-skills  {
+		font-size: 1.8rem;
+	}
 }
