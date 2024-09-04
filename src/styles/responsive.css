@@ -1,3 +1,8 @@
+@media screen and (min-width: 1400px) {
+	.container {
+		width: 1300px;
+	}
+}
 @media screen and (max-width: 1400px) {
 	.home-avatar {
 		width: 45rem;
@@ -10,8 +15,7 @@
 		padding: 1rem 2rem;
 	}
 	.service-wrapper {
-	padding: 4rem 6rem;
-
+		padding: 3rem 5rem;
 	}
 }
 @media screen and (max-width: 1200px) {
@@ -42,9 +46,8 @@
 		padding: 1rem 2rem;
 	}
 	.service-wrapper {
-		padding: 4rem;
-	
-		}
+		padding: 8rem 3rem;
+	}
 }
 @media screen and (max-width: 992px) {
 	.header_title {
@@ -81,6 +84,9 @@
 	.about-content,
 	.about-img {
 		flex-basis: auto;
+	}
+	.service-wrapper {
+		padding: 8rem 2rem;
 	}
 }
 @media screen and (max-width: 768px) {

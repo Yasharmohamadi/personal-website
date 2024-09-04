@@ -49,7 +49,7 @@ export default function Services() {
 
 	return (
 		<div className="services">
-			<div className="container services-container">
+			<div className="container">
 				<div className="section-header">
 					<h3 className="section-title">Services</h3>
 					<p className="section-title_sub">What We Provide You?</p>
@@ -57,14 +57,25 @@ export default function Services() {
 				</div>
 				<div className="row services-wrapper">
 					{services.map((service) => (
-						<div className="col-lg-4" key={service.id}>
+						<div className="col-12 col-md-6 col-lg-6 col-xl-4" key={service.id}>
 							<div className="service-wrapper">
 								<div className="service-icon-wrapper">
-                                    <img className="service-icon" src={service.icon} />
-                                </div>
+									<img className="service-icon" src={service.icon} />
+								</div>
 								<h4 className="service-title">{service.title}</h4>
 								<p className="service-description">{service.description}</p>
-								<div className="service-shape"></div>
+								<svg
+                                    className="service-shape"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 369.92 223.59"
+                                    >
+									<path
+										id="shape"
+										d="M1249.08,2700.557s15.007-66.794,51.8-54.34,43.02,57.737,121.7,13.585,95.662-58.3,124.531-23.774S1619,2601.5,1619,2601.5v223.59H1249.08Z"
+										transform="translate(-1249.08 -2601.498)"
+										fill="#fff"
+									/>
+								</svg>
 							</div>
 						</div>
 					))}
