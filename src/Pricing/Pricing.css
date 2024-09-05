@@ -1,0 +1,56 @@
+.pricing {
+	margin-bottom: 10rem;
+}
+
+.pricing-wrapper {
+	padding: 0 5rem;
+}
+
+.pricing-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1.5rem;
+	box-shadow: 0 0 3rem var(--shadow-color);
+	padding-bottom: 3rem;
+}
+
+.pricing-item-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.3rem;
+	width: 100%;
+	background: var(--main-color);
+	color: #fff;
+	padding: 2.5rem;
+}
+
+.pricing-item-header__title {
+	font-size: 2.2rem;
+}
+.pricing-item-header__price {
+	font-size: 1.8rem;
+	font-family: "Poppins SemiBold";
+}
+.pricing-item-header__text {
+	font-size: 1.5rem;
+}
+
+.pricing-item-body__list {
+	padding: 2.5rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	list-style: none;
+	gap: 1rem;
+}
+
+.pricing-item-body__list-item {
+}
+
+.pricing-item button {
+	padding: 1rem 2.5rem;
+	font-size: 1.8rem;
+}
