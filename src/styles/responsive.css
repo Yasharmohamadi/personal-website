@@ -110,7 +110,7 @@
 		box-shadow: none;
 		align-items: flex-start;
 		min-height: auto;
-		justify-content: start;
+		justify-content: center;
 		gap: 1rem;
 	}
 
