@@ -5,7 +5,7 @@ export default function Home() {
 	return (
 		<div className="home">
 			<div className="container">
-				<div className="row align-items-center">
+				<div className="row align-items-center home-container">
 					<div className="col-12 col-lg-7">
 						<div className="home-contents">
 							<h3 className="home-welcome">

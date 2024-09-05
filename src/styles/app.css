@@ -12,7 +12,7 @@
 :root {
 	--main-color: #1a4f94;
 	--text-color: #333333;
-	--shadow-color: rgba(19, 94, 175, 0.2);
+	--shadow-color: rgba(19, 94, 175, 0.3);
 	--app-bg-color: #fff;
 	--section-bg-color: #fff;
 }
@@ -30,6 +30,16 @@ html {
 	justify-content: center;
 }
 
+.skew-reset {
+	transform: skewY(5deg);
+}
+
+.h-full {
+	height: 100%;
+}
+
+/* /////////////////////////// */
+
 body {
 	font-family: "Poppins";
 	font-size: 1.6rem; /* 16px */
@@ -45,7 +55,7 @@ body {
 	border: 1px solid var(--main-color);
 	cursor: pointer;
 	font-family: "Poppins SemiBold";
-	box-shadow: 0 0 50px var(--shadow-color);
+	/* box-shadow: 0 0 50px var(--shadow-color); */
 }
 
 .btn_blue {

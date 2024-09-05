@@ -6,6 +6,11 @@
 	height: 90rem;
 }
 
+.home-container {
+	margin: 0 !important;
+
+}
+
 .home-welcome {
 	font-family: "Poppins SemiBold";
     font-size: 2.5rem;

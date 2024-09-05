@@ -1,0 +1,122 @@
+.resume {
+	margin-top: 12rem;
+	margin-bottom: 12rem;
+	background: var(--section-bg-color);
+	box-shadow: 0 0 5rem var(--shadow-color);
+	transform: skewY(-5deg);
+	padding: 9rem 0;
+}
+
+.resume-wrapper {
+	margin: 5rem 0 0 0 !important;
+	justify-content: space-between;
+}
+
+.resume-menu {
+	background: var(--app-bg-color);
+	position: relative;
+	box-shadow: 0 0 4rem var(--shadow-color);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
+	min-height: 33rem;
+	/* margin-right: 2rem; */
+}
+.resume-menu::before {
+	background: var(--main-color);
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 4rem;
+	top: 0;
+	bottom: 0;
+}
+
+.menu__item {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding: 1rem 0;
+	position: relative;
+	cursor: pointer;
+	z-index: 2;
+	transition: all 250ms ease-in-out;
+	font-size: 1.8rem;
+	font-family: "Poppins SemiBold";
+	color: var(--text-color);
+}
+
+.menu__item::before {
+	background: var(--main-color);
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 5rem;
+	left: 0;
+	z-index: -1;
+	border-radius: 5rem;
+	transition: all 200ms ease-in-out;
+	max-width: 25rem;
+}
+
+.menu__item--active::before {
+	width: 100%;
+}
+.menu__item--active {
+	color: #fff;
+}
+
+.menu__icon {
+	width: 2rem;
+	margin: 0 3rem 0 1rem;
+}
+
+.resume-content {
+	background: var(--section-bg-color);
+	border-left: 1px solid var(--main-color);
+	/* margin-left: 4rem; */
+	padding-left: 3rem;
+}
+.content-box {
+	margin: 4rem 0;
+}
+.content-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.content-header__title {
+	color: var(--main-color);
+	margin-bottom: 1rem;
+	position: relative;
+	font-size: 1.8rem;
+	font-family: "Poppins SemiBold";
+}
+.content-header__title::before {
+	background: var(--main-color);
+	content: "";
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	left: -4rem;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	position: absolute;
+}
+.content-header__label {
+	background: var(--main-color);
+	color: #fff;
+	padding: 0.2rem 0.9rem;
+	border-radius: 5rem;
+	font-size: 1.3rem;
+	box-shadow: 0 0 2rem var(--shadow-color);
+}
+.content-caption__title {
+	font-family: "Poppins SemiBold";
+	font-size: 1.6rem;
+}
+.content-caption__text {
+}
