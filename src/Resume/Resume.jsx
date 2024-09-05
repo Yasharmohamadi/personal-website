@@ -27,7 +27,7 @@ export default function Resume() {
 					<div className="section-line"></div>
 				</div>
 				<div className="row resume-wrapper">
-					<div className="col-3">
+					<div className="col 12 col-lg-4">
 						<div className="resume-menu h-full">
 							<div
 								className="menu__item menu__item--active"
@@ -96,7 +96,8 @@ export default function Resume() {
 							</div>
 						</div>
 					</div>
-					<div className="col-8 content-wrapper">
+					<div className="col 12 col-lg-8 content-wrapper">
+						{/* <div className="content-wrapper"> */}
 						<div className="resume-content resume-content--show" id="education">
 							<div className="content-box">
 								<div className="content-header">
@@ -210,7 +211,6 @@ export default function Resume() {
 							</div>
 						</div>
 						<div className="resume-content" id="programming">
-			
 							<div className="content-box">
 								<div className="content-header">
 									<h4 className="content-header__title">programming</h4>
@@ -251,6 +251,7 @@ export default function Resume() {
 								</p>
 							</div>
 						</div>
+						{/* </div> */}
 					</div>
 				</div>
 			</div>

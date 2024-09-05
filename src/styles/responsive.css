@@ -17,6 +17,14 @@
 	.service-wrapper {
 		padding: 3rem 5rem;
 	}
+
+	.resume-content {
+		padding-left: 2rem;
+	}
+
+	.content-wrapper {
+		padding-left: 1rem;
+	}
 }
 @media screen and (max-width: 1200px) {
 	.header_list li {
@@ -47,6 +55,12 @@
 	}
 	.service-wrapper {
 		padding: 8rem 3rem;
+	}
+	.menu__item {
+		font-size: 1.7rem;
+	}
+	.menu__item::before {
+		max-width: 20rem;
 	}
 }
 @media screen and (max-width: 992px) {
@@ -88,6 +102,41 @@
 	.service-wrapper {
 		padding: 8rem 2rem;
 	}
+
+	.resume-menu {
+		flex-direction: row;
+		flex-wrap: wrap;
+		background: none;
+		box-shadow: none;
+		align-items: flex-start;
+		min-height: auto;
+		justify-content: start;
+		gap: 1rem;
+	}
+
+	.menu__item::before,
+	.resume-menu::before {
+		content: none;
+	}
+	.menu__icon {
+		display: none;
+	}
+	.menu__item--active {
+		background: var(--main-color) !important;
+		color: #fff !important;
+	}
+	.menu__item {
+		color: var(--main-color);
+		background: #fff;
+		border: 0.1rem solid var(--main-color);
+		border-radius: 5rem;
+		text-align: center;
+		padding: 0.5rem 1rem;
+	}
+	.content-wrapper {
+		margin-top: 4rem;
+	}
+	
 }
 @media screen and (max-width: 768px) {
 	.nav-icon-toggle {
