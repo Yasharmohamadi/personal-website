@@ -3,7 +3,11 @@ import "./Resume.css";
 
 export default function Resume() {
 	const menuItemHandler = (event) => {
+		document
+			.querySelector(".menu__item--active")
+			.classList.remove("menu__item--active");
 
+		event.target.classList.add("menu__item--active");
 	};
 	return (
 		<div className="resume">
