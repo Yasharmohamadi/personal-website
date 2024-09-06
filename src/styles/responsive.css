@@ -62,7 +62,7 @@
 	.menu__item::before {
 		max-width: 20rem;
 	}
-/* 
+
 	.contact-location-wrapper {
 		display: none;
 	}
@@ -73,7 +73,7 @@
 	.contact-form {
 		width: 90%;
 		margin: 0 auto;
-	} */
+	}
 }
 @media screen and (max-width: 992px) {
 	.header_title {
