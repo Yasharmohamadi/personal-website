@@ -5,6 +5,7 @@ import About from "./About/About";
 import Services from "./Services/Services";
 import Resume from "./Resume/Resume";
 import Pricing from "./Pricing/Pricing";
+import Contact from "./Contact/Contact";
 
 export default function App() {
 	return (
@@ -16,6 +17,7 @@ export default function App() {
 				<Services />
 				<Resume />
 				<Pricing />
+				<Contact />
 			</main>
 		</div>
 	);

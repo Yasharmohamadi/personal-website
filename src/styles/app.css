@@ -79,6 +79,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 8rem;
+
+	margin-bottom: 5rem;
+
 }
 .section-title {
 	font-size: 4.5rem;
@@ -100,7 +104,6 @@ body {
 	width: 4rem;
 	border-radius: 5rem;
 	position: relative;
-	margin-bottom: 5rem;
 	/* z-index: -1; */
 }
 .section-line::before,

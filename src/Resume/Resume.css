@@ -1,6 +1,5 @@
 .resume {
 	margin-top: 12rem;
-	margin-bottom: 12rem;
 	background: var(--section-bg-color);
 	box-shadow: 0 0 5rem var(--shadow-color);
 	transform: skewY(-5deg);

@@ -1,5 +1,4 @@
 .pricing {
-	margin-bottom: 10rem;
 }
 
 .pricing-wrapper {
@@ -42,7 +41,7 @@
 
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	/* align-items: center; */
 	list-style: none;
 	gap: 1rem;
 }
