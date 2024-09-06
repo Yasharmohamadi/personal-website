@@ -6,6 +6,7 @@ import Services from "./Services/Services";
 import Resume from "./Resume/Resume";
 import Pricing from "./Pricing/Pricing";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 export default function App() {
 	return (
@@ -19,6 +20,7 @@ export default function App() {
 				<Pricing />
 				<Contact />
 			</main>
+			<Footer />
 		</div>
 	);
 }
