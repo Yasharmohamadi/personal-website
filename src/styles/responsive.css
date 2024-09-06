@@ -151,10 +151,10 @@
 	.pricing-wrapper {
 		padding: 0 12rem;
 	}
-	/* .footer-container {
+	.footer-container {
 		justify-content: center;
 		gap: 2rem;
-	} */
+	}
 }
 @media screen and (max-width: 768px) {
 	.nav-icon-toggle {
