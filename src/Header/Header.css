@@ -36,9 +36,9 @@
 	cursor: pointer;
 	
 	padding: 0.5rem 1.5rem;
-    font-family: "Poppins SemiBold";
 }
 .list_item--active {
+	font-family: "Poppins SemiBold";
 	color: var(--main-color);
 }
 
