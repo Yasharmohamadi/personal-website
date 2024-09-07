@@ -1,7 +1,7 @@
 .footer {
 	/* margin-top: 5rem; */
     padding: 2rem 0;
-    box-shadow:  0 0 5rem var(--shadow-color);
+    background: var(--app-bg-color);
 }
 
 .footer-container {
@@ -42,4 +42,7 @@
 .footer-icon svg {
     width: 3rem;
     height: 3rem;
+}
+.footer-icon svg path {
+    fill: var(--app-bg-color);
 }

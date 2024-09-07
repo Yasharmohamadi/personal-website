@@ -6,9 +6,15 @@
 	padding: 9rem 0;
 }
 
+.resume-header {
+	margin-top: 0 !important;
+}
+
 .resume-wrapper {
 	margin: 5rem 0 0 0 !important;
 	justify-content: space-between;
+	/* padding: 0 5rem; */
+
 }
 
 .resume-menu {

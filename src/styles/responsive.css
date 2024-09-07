@@ -148,13 +148,14 @@
 	.content-wrapper {
 		margin-top: 4rem;
 	}
-	.pricing-wrapper {
-		padding: 0 12rem;
-	}
 	.footer-container {
 		justify-content: center;
 		gap: 2rem;
 	}
+	.pricing-wrapper {
+		padding: 0 10rem;
+	}
+	
 }
 @media screen and (max-width: 768px) {
 	.nav-icon-toggle {
@@ -193,8 +194,16 @@
 	.about-img {
 		flex-basis: 20%;
 	}
+
+	.pricing-item-body__list {
+		padding: 3rem;
+	}
+
+	.pricing-item-body__list-item {
+		font-size: 2rem;
+	}
 	.pricing-wrapper {
-		padding: 0 5rem;
+		padding: 0 0rem;
 	}
 }
 @media screen and (max-width: 576px) {
@@ -209,6 +218,9 @@
 	.home-avatar {
 		border: 1.5rem solid var(--section-bg-color);
 	}
+	.resume-wrapper {
+		padding: 0 4rem;
+	}
 }
 @media screen and (max-width: 460px) {
 	.home-welcome {
@@ -220,4 +232,6 @@
 	.home-skills {
 		font-size: 1.5rem;
 	}
+	
+	
 }

@@ -2,7 +2,7 @@
 }
 
 .pricing-wrapper {
-	padding: 0 5rem;
+	/* padding: 0 5rem; */
 }
 
 .pricing-item {
@@ -51,6 +51,7 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+	font-size: 1.6rem;
 }
 
 .pricing-item button {

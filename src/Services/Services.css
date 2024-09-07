@@ -1,5 +1,4 @@
 .services {
-	padding-top: 8rem;
 }
 .services-wrapper {
 	margin-top: 5rem !important;
@@ -8,7 +7,7 @@
 .service-wrapper {
 	background: var(--main-color);
 	color: #fff;
-	/* box-shadow: 0 0 50px var(--shadow-color); */
+	box-shadow: 0 0 50px var(--shadow-color);
 	text-align: center;
 	margin: 1.5rem;
 	padding: 8rem 4rem;
