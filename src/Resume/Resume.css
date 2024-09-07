@@ -1,9 +1,9 @@
 .resume {
-	margin-top: 12rem;
+	margin-top: 7rem;
 	background: var(--section-bg-color);
 	box-shadow: 0 0 5rem var(--shadow-color);
 	transform: skewY(-5deg);
-	padding: 9rem 0;
+	padding: 5rem 0;
 }
 
 .resume-header {

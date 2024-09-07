@@ -10,16 +10,22 @@ export default function Header() {
 
 	const menuItemClickHandler = (event) => {
 		event.preventDefault();
-		
-		document
-		.querySelector(".list_item--active")
-		.classList.remove("list_item--active");
-		
-		event.target.classList.add("list_item--active");
-		
-		let itemName = event.target.getAttribute('data-name')
-		console.log(itemName);
 
+		document
+			.querySelector(".list_item--active")
+			.classList.remove("list_item--active");
+
+		event.target.classList.add("list_item--active");
+
+		let itemName = event.target.getAttribute("data-name");
+		// console.log(itemName);
+		let itemSectionOffsetTop = document.querySelector(`.${itemName}`).offsetTop;
+		// console.log(itemSectionOffsetTop);
+
+		window.scrollTo({
+			top: itemSectionOffsetTop - 140,
+			behavior: 'smooth'
+		})
 
 	};
 
@@ -34,32 +40,36 @@ export default function Header() {
 						}
 					>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name='Home' className="list_item list_item--active">
+							<a
+								href="#"
+								data-name="home"
+								className="list_item list_item--active"
+							>
 								Home
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name='Aboutus' className="list_item">
+							<a href="#" data-name="about" className="list_item">
 								About Us
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name='Resume' className="list_item">
+							<a href="#" data-name="resume" className="list_item">
 								Resume
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name='Services' className="list_item">
+							<a href="#" data-name="services" className="list_item">
 								Services
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name='Pricing' className="list_item">
+							<a href="#" data-name="pricing" className="list_item">
 								Pricing
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name='Contact' className="list_item">
+							<a href="#" data-name="contact" className="list_item">
 								Contact
 							</a>
 						</li>
