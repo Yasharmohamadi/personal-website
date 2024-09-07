@@ -27,20 +27,19 @@
 }
 .header_list li {
 	/* font-size: 2rem; */
-	padding: 1rem;
-	margin: 0 0.5rem;
+	/* margin: 0 0.5rem; */
+}
+.list_item:hover {
+	color: var(--main-color);
+}
+.list_item {
 	cursor: pointer;
-}
-.header_list li:hover {
-	background: #e4e4e441;
-}
-.header_list li a {
-	text-decoration: none;
-	color: var(--text-color);
+	
+	padding: 0.5rem 1.5rem;
+    font-family: "Poppins SemiBold";
 }
 .list_item--active {
-	color: var(--main-color) !important;
-	font-weight: 600 !important;
+	color: var(--main-color);
 }
 
 /* hamberger menu */

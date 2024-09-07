@@ -67,7 +67,7 @@ export default function Footer() {
 							xmlns="http://www.w3.org/2000/svg"
 							width="40"
 							height="40"
-							enable-background="new 0 0 100 100"
+							enableBackground="new 0 0 100 100"
 							viewBox="0 0 100 100"
 						>
 							<path

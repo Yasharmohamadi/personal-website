@@ -21,6 +21,12 @@ html {
 	font-size: 10px; /* 1rem == 10 px*/
 }
 
+a {
+	text-decoration: none;
+	color: var(--text-color);
+
+}
+
 /* helper class */
 .align-items-center {
 	align-items: center;

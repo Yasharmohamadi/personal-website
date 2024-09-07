@@ -8,35 +8,56 @@ export default function Header() {
 		setNavOpen(!navOpen);
 	};
 
+	const menuItemClickHandler = (event) => {
+		event.preventDefault();
+		console.log(event.target);
+
+		document
+			.querySelector(".list_item--active")
+			.classList.remove("list_item--active");
+
+		event.target.classList.add("list_item--active");
+	};
+
 	return (
 		<div className="header">
 			<div className="container">
 				<nav className="nav">
 					<h1 className="header_title">RoninDevs.</h1>
-					<ul className={
-							navOpen
-								? "header_list header_list--open"
-								: "header_list"
-						}>
-						<li>
-							<a href="#" className="list_item--active">
+					<ul
+						className={
+							navOpen ? "header_list header_list--open" : "header_list"
+						}
+					>
+						<li onClick={(event) => menuItemClickHandler(event)}>
+							<a href="#" className="list_item list_item--active">
 								Home
 							</a>
 						</li>
-						<li>
-							<a href="#">About Us</a>
+						<li onClick={(event) => menuItemClickHandler(event)}>
+							<a href="#" className="list_item">
+								About Us
+							</a>
 						</li>
-						<li>
-							<a href="#">Resume</a>
+						<li onClick={(event) => menuItemClickHandler(event)}>
+							<a href="#" className="list_item">
+								Resume
+							</a>
 						</li>
-						<li>
-							<a href="#">Services</a>
+						<li onClick={(event) => menuItemClickHandler(event)}>
+							<a href="#" className="list_item">
+								Services
+							</a>
 						</li>
-						<li>
-							<a href="#">Pricing</a>
+						<li onClick={(event) => menuItemClickHandler(event)}>
+							<a href="#" className="list_item">
+								Pricing
+							</a>
 						</li>
-						<li>
-							<a href="#">Contact</a>
+						<li onClick={(event) => menuItemClickHandler(event)}>
+							<a href="#" className="list_item">
+								Contact
+							</a>
 						</li>
 					</ul>
 					<div
