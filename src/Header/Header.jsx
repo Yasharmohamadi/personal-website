@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 
 export default function Header() {
@@ -24,10 +24,45 @@ export default function Header() {
 
 		window.scrollTo({
 			top: itemSectionOffsetTop - 140,
-			behavior: 'smooth'
-		})
+			behavior: "smooth",
+		});
 
+		///////////////////////////////////////////////////////////////////////
 	};
+
+	useEffect(() => {
+		const observer = new IntersectionObserver(observeHandler, {
+			threshold: 0.5,
+		});
+
+		function observeHandler(allSections) {
+			allSections.map((section) => {
+				if (section.isIntersecting) {
+					let sectionClassName = section.target.className;
+
+					document
+						.querySelector(".list_item--active")
+						.classList.remove("list_item--active");
+					document
+						.querySelectorAll(`.list_item[data-name=${sectionClassName}]`)[0]
+						.classList.add("list_item--active");
+				}
+				// let allMenuItem = document.querySelectorAll(".list_item");
+
+				// allMenuItem.forEach((item) => {
+				// 	let itemDataName = item.getAttribute("data-name");
+				// 	if (sectionClassName === itemDataName) {
+
+				// 			item.classList.add("list_item--active");
+				// 	}
+				// });
+			});
+		}
+
+		document.querySelectorAll("main > div").forEach((section) => {
+			observer.observe(section);
+		});
+	}, []);
 
 	return (
 		<div className="header">
@@ -54,13 +89,13 @@ export default function Header() {
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name="resume" className="list_item">
-								Resume
+							<a href="#" data-name="services" className="list_item">
+								Services
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
-							<a href="#" data-name="services" className="list_item">
-								Services
+							<a href="#" data-name="resume" className="list_item">
+								Resume
 							</a>
 						</li>
 						<li onClick={(event) => menuItemClickHandler(event)}>
