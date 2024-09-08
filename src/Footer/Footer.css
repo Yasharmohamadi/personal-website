@@ -46,3 +46,6 @@
 .footer-icon svg path {
     fill: var(--app-bg-color);
 }
+.change-theme {
+    cursor: pointer;
+}
