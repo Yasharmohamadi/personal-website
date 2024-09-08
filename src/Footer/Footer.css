@@ -49,3 +49,11 @@
 .change-theme {
     cursor: pointer;
 }
+
+.theme-icon {
+     display: none;
+}
+
+.theme-icon--active {
+    display: block !important;
+}
