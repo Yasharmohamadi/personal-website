@@ -31,7 +31,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -49,7 +48,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -67,7 +65,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -85,7 +82,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -103,7 +99,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -133,7 +128,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -151,7 +145,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -169,7 +162,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -187,7 +179,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -205,7 +196,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -235,7 +225,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -253,7 +242,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -271,7 +259,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -289,7 +276,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>
@@ -307,7 +293,6 @@ export default function Pricing() {
 											data-name="Icon material-done"
 											d="M1355.037,6029.945l-3.028-3.231-1.009,1.077,4.037,4.309,8.651-9.233-1.009-1.077Z"
 											transform="translate(-1350.315 -6021.058)"
-											fill="#333"
 											strokeWidth="1"
 										/>
 									</svg>

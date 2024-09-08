@@ -55,6 +55,7 @@
 
 .menu__item::before {
 	background: var(--main-color);
+	box-shadow: 0 0 4rem rgba(19, 94, 175, 0.5);
 	position: absolute;
 	content: "";
 	height: 100%;

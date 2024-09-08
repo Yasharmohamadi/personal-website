@@ -38,6 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .footer-icon svg {
     width: 3rem;
@@ -46,14 +47,7 @@
 .footer-icon svg path {
     fill: var(--app-bg-color);
 }
-.change-theme {
-    cursor: pointer;
-}
 
-.theme-icon {
-     display: none;
-}
-
-.theme-icon--active {
-    display: block !important;
+.change-theme svg path {
+    fill: #fff;
 }

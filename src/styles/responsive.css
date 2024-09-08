@@ -139,7 +139,6 @@
 	}
 	.menu__item {
 		color: var(--main-color);
-		background: #fff;
 		border: 0.1rem solid var(--main-color);
 		border-radius: 5rem;
 		text-align: center;
