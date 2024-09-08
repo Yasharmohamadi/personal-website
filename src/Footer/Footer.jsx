@@ -1,14 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Footer.css";
 
 export default function Footer() {
 	const [isDark, setIsDark] = useState(false);
 
+	const rootClassList = document.documentElement.classList
+
 	const chageThemeHandler = () => {
 		setIsDark(!isDark);
 
-		document.documentElement.classList.toggle("dark-theme");
+		rootClassList.toggle("dark-theme");
+
+		if (rootClassList.contains("dark-theme")) {
+			localStorage.setItem("theme", "dark-theme");
+		} else {
+			localStorage.setItem("theme", "light-theme");
+		}
 	};
+
+	useEffect(() => {
+		let theme = localStorage.getItem("theme");
+		if (theme === "dark-theme") {
+			rootClassList.add("dark-theme");
+		} else if (theme === "light-theme") {
+			rootClassList.remove("dark-theme");
+		}
+	}, []);
+
+	
 	return (
 		<div className="footer">
 			<div className="container footer-container">
