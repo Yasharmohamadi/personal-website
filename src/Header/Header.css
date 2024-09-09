@@ -20,6 +20,7 @@
 	font-size: 4.5rem;
 	color: var(--main-color);
 	cursor: pointer;
+
 }
 .header_list {
 	list-style: none;

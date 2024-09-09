@@ -38,6 +38,8 @@
 
 html {
 	font-size: 10px; /* 1rem == 10 px*/
+	scroll-behavior: smooth;
+
 }
 
 a {

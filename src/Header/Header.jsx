@@ -68,7 +68,9 @@ export default function Header() {
 		<div className="header">
 			<div className="container">
 				<nav className="nav">
-					<h1 className="header_title">RoninDevs.</h1>
+					<a href="#" className="header_title">
+						RoninDevs.
+					</a>
 					<ul
 						className={
 							navOpen ? "header_list header_list--open" : "header_list"
