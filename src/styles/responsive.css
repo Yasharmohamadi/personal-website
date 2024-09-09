@@ -186,7 +186,9 @@
 		overflow: hidden;
 	}
 	.header_list--open {
-		height: 100vh;
+		height: 27rem;
+		/* box-shadow-bo: 0 1rem 5rem var(--shadow-color); */
+		border-bottom: 0.2rem solid var(--main-color);
 	}
 	.header_list li {
 		padding: 1rem 1.5rem;
