@@ -167,6 +167,11 @@
 		cursor: default !important;
 	}
 
+	.list_item:hover {
+		color: var(--text-color) !important; /* remove hovering in mobile size */
+		
+	}
+
 	.nav-icon-toggle {
 		display: flex;
 	}
