@@ -163,7 +163,10 @@
 	
 }
 @media screen and (max-width: 768px) {
-	
+	* {
+		cursor: default !important;
+	}
+
 	.nav-icon-toggle {
 		display: flex;
 	}
