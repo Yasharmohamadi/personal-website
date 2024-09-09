@@ -11,23 +11,25 @@ export default function Header() {
 	const menuItemClickHandler = (event) => {
 		event.preventDefault();
 
+		// close nav menu when click on a item in mobile nav
+		setNavOpen(false)
+
+		// remove and add active item's color and font-family 
 		document
 			.querySelector(".list_item--active")
 			.classList.remove("list_item--active");
-
 		event.target.classList.add("list_item--active");
 
+		// get and save data-name of main item
 		let itemName = event.target.getAttribute("data-name");
-		// console.log(itemName);
+		// get and save  main section's distance of top
 		let itemSectionOffsetTop = document.querySelector(`.${itemName}`).offsetTop;
-		// console.log(itemSectionOffsetTop);
 
+		// scroll window to main section
 		window.scrollTo({
 			top: itemSectionOffsetTop - 140,
 			behavior: "smooth",
 		});
-
-		///////////////////////////////////////////////////////////////////////
 	};
 
 	useEffect(() => {
@@ -47,15 +49,6 @@ export default function Header() {
 						.querySelectorAll(`.list_item[data-name=${sectionClassName}]`)[0]
 						.classList.add("list_item--active");
 				}
-				// let allMenuItem = document.querySelectorAll(".list_item");
-
-				// allMenuItem.forEach((item) => {
-				// 	let itemDataName = item.getAttribute("data-name");
-				// 	if (sectionClassName === itemDataName) {
-
-				// 			item.classList.add("list_item--active");
-				// 	}
-				// });
 			});
 		}
 
