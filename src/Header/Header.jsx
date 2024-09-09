@@ -69,7 +69,7 @@ export default function Header() {
 							navOpen ? "header_list header_list--open" : "header_list"
 						}
 					>
-						<li onClick={(event) => menuItemClickHandler(event)}>
+						<li className="list_item_li" onClick={(event) => menuItemClickHandler(event)}>
 							<a
 								href="#"
 								data-name="home"
@@ -78,27 +78,27 @@ export default function Header() {
 								Home
 							</a>
 						</li>
-						<li onClick={(event) => menuItemClickHandler(event)}>
+						<li className="list_item_li" onClick={(event) => menuItemClickHandler(event)}>
 							<a href="#" data-name="about" className="list_item">
 								About Us
 							</a>
 						</li>
-						<li onClick={(event) => menuItemClickHandler(event)}>
+						<li className="list_item_li" onClick={(event) => menuItemClickHandler(event)}>
 							<a href="#" data-name="services" className="list_item">
 								Services
 							</a>
 						</li>
-						<li onClick={(event) => menuItemClickHandler(event)}>
+						<li className="list_item_li" onClick={(event) => menuItemClickHandler(event)}>
 							<a href="#" data-name="resume" className="list_item">
 								Resume
 							</a>
 						</li>
-						<li onClick={(event) => menuItemClickHandler(event)}>
+						<li className="list_item_li" onClick={(event) => menuItemClickHandler(event)}>
 							<a href="#" data-name="pricing" className="list_item">
 								Pricing
 							</a>
 						</li>
-						<li onClick={(event) => menuItemClickHandler(event)}>
+						<li className="list_item_li" onClick={(event) => menuItemClickHandler(event)}>
 							<a href="#" data-name="contact" className="list_item">
 								Contact
 							</a>
